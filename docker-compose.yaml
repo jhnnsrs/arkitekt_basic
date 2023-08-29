@@ -5,7 +5,7 @@ services:
   orkestrator:
     image: jhnnsrs/orkestrator:release
     ports:
-      - 7890:80
+      - 6789:80
   db:
     environment:
       POSTGRES_MULTIPLE_DATABASES: port_db, mikro_db, lok_db, rekuest_db, fluss_db
@@ -44,6 +44,7 @@ services:
     - redis
     - db
     image: jhnnsrs/lok:release
+    command: bash run-debug.sh
     ports:
     - 8000:8000
     volumes:
