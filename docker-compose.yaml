@@ -44,7 +44,6 @@ services:
     - redis
     - db
     image: jhnnsrs/lok:release
-    command: bash run-debug.sh
     ports:
     - 8000:8000
     volumes:
