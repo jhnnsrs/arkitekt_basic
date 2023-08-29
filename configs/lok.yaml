@@ -11,7 +11,7 @@ apps:
     scopes:
       - read
       - write
-    tenant: johannes
+    tenant: alex
     token: 293j40239j4023023n09nw30d9n203nf03f
     version: latest
   - client_id: gdrgdhgnjsdfsefs
@@ -26,7 +26,7 @@ apps:
     scopes:
       - read
       - write
-    tenant: johannes
+    tenant: alex
     version: latest
     token: 293j40239j4023023n09nj09n49nin3w30d9n203nf03f
   - client_id: snfoinosinefsef
@@ -50,7 +50,7 @@ apps:
     scopes:
       - read
       - write
-    tenant: johannes
+    tenant: alex
     version: latest
     token: 293j40239j4023023n039j309n309n3093n09nw30d9n203nf03f
   - client_id: soinfosienfsfosefghsegfisnefoisneofinsef
@@ -66,7 +66,7 @@ apps:
     scopes:
       - read
       - write
-    tenant: johannes
+    tenant: alex
     version: latest
     token: 293j40239j4023023n09nw3oinfinoifnsoifnosineoifnsef0d9n203nf03f
   - client_id: mylittlefakts
@@ -81,7 +81,7 @@ apps:
     scopes:
       - read
       - write
-    tenant: johannes
+    tenant: alex
     version: latest
     token: 09j039j4r09n3409in09n09n0909209n409n09n3093n3
   - client_id: soinfosienfoaswdasdasdisnefoisneofinsef
@@ -95,7 +95,7 @@ apps:
     scopes:
       - read
       - write
-    tenant: johannes
+    tenant: alex
     version: latest
     token: 304n03940p39m4f09o304fo9m0394mf039n4f039n4f093n4f
   - client_id: soinfosienfoissgsegsegtbsynefoisneofinsef
@@ -110,7 +110,7 @@ apps:
     scopes:
       - read
       - write
-    tenant: johannes
+    tenant: alex
     version: latest
     token: 093j4093n4f09m3094mf09m309mf09mf094n09enf09n23
   - client_id: sdfsfshrhsdbse4gsrgs4rgdrgsrdgedrg
@@ -124,7 +124,7 @@ apps:
       - http://localhost:6767
     scopes:
       - read
-    tenant: johannes
+    tenant: alex
     version: v0.0.1
     token: 0394mr039m4f093m40f90934nf09n309m2039d029n3f092n3f0293fn
   - client_id: fsefgsdfoina9oiwendaosinaswdaw
@@ -138,7 +138,7 @@ apps:
       - http://localhost:6767
     scopes:
       - read
-    tenant: johannes
+    tenant: alex
     version: latest
     token: 2039rn0293md02m3f0pm2p30omr02oin3f0ß92m30f9n2039fn2039fn
   - client_id: 09j09sn09nf0s9ne0f9ns09enf0s9enfsef
@@ -149,7 +149,7 @@ apps:
     name: gucker
     scopes:
       - read
-    tenant: johannes
+    tenant: alex
     version: latest
     token: sf09js09e0f9se0f9ns0e9nfsef
 
@@ -259,13 +259,8 @@ scopes:
   read_starred: Reading all of your shared Data
 token_expire_seconds: 604800
 users:
-  - email: johannes@gmail.com
+  - email: arkitekt@alexanderwilhelmi.com
     groups:
       - My Perfect Team
-    password: johannes
-    username: johannes
-  - email: thierno@gmail.com
-    groups:
-      - My Perfect Team
-    password: thierno
-    username: thierno
+    password: alex
+    username: alex
